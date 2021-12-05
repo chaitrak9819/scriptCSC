@@ -96,3 +96,37 @@ grades--10
 
 --full outer join exclusive select * from table_a as a full outer join table_b as b on a.pk = b.pk WHERE A.PK IS NULL OR B.PK IS NULL;
 ![image](https://user-images.githubusercontent.com/95567903/144755766-f4e61328-8b3b-453e-9ee2-5a368548ae89.png)
+
+[7:33 PM] Sreedhar Sahana
+Easy qsts (no relations needed)
+1- Get all enrolled students for a specific period,program,year ?
+2- Get number of enrolled students for a specific period,program,year
+3- Get All defined exams for a course from grades table
+4-Get all grades for a student
+5-Get all grades for a specific Exam
+6-Get students Ranks in an Exam for a course
+7-Get students Ranks in all exams for a course
+8-Get students Rank in all exams in all courses
+9-Get all courses for one program
+10-Get courses in common between 2 programs
+11-Get all programs following a certain course
+12- get course with the biggest duration
+13-get courses with the same duration
+14-Get all sessions for a specific course
+15-Get all session for a certain period
+16-Get one student attendance sheet
+17- Get one student summary of attendance
+18-Get student with most absences
+Hard questions (build the relations requiered)
+1- Get all exams for a specific Course
+2- Get all Grades for a specific Student
+3- Get the final grades for a student on a specifique course or all courses
+4-Get the students with the top 5 scores for specific course
+5-Get the students with the top 5 scores for specific course
+per rank
+6-Get the Class average for a course
+--bonuses:
+1-Get a student full report of grades and attendances
+2- -- Get a student full report of grades ,ranks per course  and attendances
+Those questions are from easy to super hard
+
