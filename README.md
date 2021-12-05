@@ -1,3 +1,27 @@
+dbeaver - chaitra@123
+schemas- right click- create new schema- give name
+for the given schema -right click- sql editor-new sql scpit
+rename the new file
+file1- ddl
+file2- inserst
+in insert---check the reference key, if it exits paste thr previous table
+leave the ref part do others, in second round do the refernce.
+
+Order of inserts:
+
+DDL
+
+courses
+programs
+contacts
+exams
+populations
+sessions
+students
+teachers 
+grades
+
+
 Links among tables---------------------------------------------------------------------------------------------------------------------------------- 1)exams(exam_course_code,exam_course_rev, exam_course_type) --> grades (grade_course_code,grade_course_rev ,grade_exam_type_ref) *to be created 2)contacts(contact_email) --> students (student_contact_ref) 3)student(student_epita_email) --> grades (grade_student_epita_email_ref) 4)course(course_code, course_rev) --> programs (program_course_code , program_course_rev) 5)population --> students(student_population_code_ref, student_population_year_ref, student_population_period_ref) *to be created 6)courses(course_code, course_rev) --> exam (exam_course_code, exam_course_rev) *to be created 7)course(course_code, course_rev) --> sessions(session_course_ref, session_course_rev_ref) *to be created 8)teachers(teacher_epita_email) -->sessions(session_prof_ref) *to be created 9)population(population_year, population_period) --> sessions(session_population_year, session_population_period) [session_room] *to be created
 
 10)student(student_epita_email) --> attendance(attendance_student_ref) *to be created ALTER TABLE attendance ADD CONSTRAINT students_attendance_fk FOREIGN KEY (attendance_student_ref) REFERENCES students(student_epita_email) ON DELETE SET NULL;
