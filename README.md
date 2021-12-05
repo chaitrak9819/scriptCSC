@@ -57,7 +57,18 @@ northwind-----------------------------------------------------------------------
 
 --21 change the shipped delivery date UPDATE orders SET shipped_date='2021-11-30' WHERE order_id=11078;
 
-Order of inserts: DDL courses--5 programs--9 contacts--1 exams--6 populations--2 sessions--7 students--3 teachers--4 attendance--8 grades--10
+Order of inserts:
+DDL 
+courses--5 
+programs--9 
+contacts--1 
+exams--6
+populations--2
+sessions--7 
+students--3 
+teachers--4
+attendance--8
+grades--10
 
 https://github.com/sahana179/createCSC https://github.com/Chandana10g71/createCSC/ https://github.com/chaitrak9819/scriptCSC
 --joining the 3 tables (bookings, facilities and members) SELECT f.name,m.firstname,b.starttime,b.slots FROM bookings as b left join facilities AS f on b.facid = f.facid left join members as m on b.memid = m.memid where m.firstname like 'T%';
