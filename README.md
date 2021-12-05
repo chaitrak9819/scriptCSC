@@ -1,0 +1,2 @@
+# scriptCSC
+exam
