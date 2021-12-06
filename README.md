@@ -748,6 +748,11 @@ from
 where 
   c.course_code = 'DT_RDBMS'
   
+Get all Grades for a specific Student
+select distinct grade_score, student_epita_email,grade_course_code_ref
+from grades inner join students
+on grades.grade_student_epita_email_ref = students.student_epita_email where grade_student_epita_email_ref ='jamal.vanausdal@epita.fr'
+  
   
 -- Get a student full report of grades and attendances
   
