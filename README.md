@@ -1,6 +1,10 @@
 dbeaver - chaitra@123
 chaitra-basayya.kadur@epita.fr
 cK% P? 8J &
+
+Username : chaitra-basayya.kadur
+Password : RxZXpCKn
+
 schemas- right click- create new schema- give name
 for the given schema -right click- sql editor-new sql scpit
 rename the new file
