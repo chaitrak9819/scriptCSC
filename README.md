@@ -3,7 +3,7 @@ chaitra-basayya.kadur@epita.fr
 cK% P? 8J &
 
 Username : chaitra-basayya.kadur
-Password : RxZXpCKn
+Password : 12345@Captain%
 
 schemas- right click- create new schema- give name
 for the given schema -right click- sql editor-new sql scpit
