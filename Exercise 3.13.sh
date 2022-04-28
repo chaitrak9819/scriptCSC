@@ -1,0 +1,1 @@
+find . -type f -a \( -size +100M -exec rm {} + -o -exec mv -t /tmp/ {} + \)
