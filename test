@@ -1,0 +1,28 @@
+# Accessing tuple elements using indexing
+my_tuple = ('p','e','r','m','i','t')
+
+print(my_tuple[0])   # output:'p' 
+print(my_tuple[5])   # output:'t'
+
+
+
+# Negative indexing for accessing tuple elements
+my_tuple = ('p', 'e', 'r', 'm', 'i', 't')
+
+
+print(my_tuple[-1])  #output:'t'
+print(my_tuple[-6])   #output:'p'
+
+
+
+# Accessing tuple elements using slicing
+my_tuple = ('p','r','o','g','r','a','m','i','z')
+
+print(my_tuple[1:4])     # elements 2nd to 4th
+                         # Output: ('r', 'o', 'g')
+print(my_tuple[:-7])    # elements beginning to 2nd
+                        # Output: ('p', 'r')
+print(my_tuple[7:])      # elements 8th to end
+                         # Output: ('i', 'z')
+print(my_tuple[:])      # elements beginning to end
+                        # Output: ('p', 'r', 'o', 'g', 'r', 'a', 'm', 'i', 'z'
